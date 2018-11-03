@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="15dp">
+    <TextView
+        android:textColor="#B6AA83"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQueueType"/>
+    <ImageView
+        android:id="@+id/imageTier"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+
+       <LinearLayout
+           android:paddingHorizontal="10dp"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="9"
+           android:layout_gravity="center"
+           android:gravity="center"
+           android:orientation="vertical"
+           android:foregroundGravity="center">
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:textStyle="bold"
+                   android:text="League Name: "/>
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txtLeagueName"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:textStyle="bold"
+                   android:text="Tier: "/>
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txtTier"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:textStyle="bold"
+                   android:text="League Points: "/>
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txtLeaguePoints"/>
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:textStyle="bold"
+                   android:text="Situation: "/>
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txtSituation"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:textStyle="bold"
+                   android:text="Wins:  "/>
+               <TextView
+                   android:textColor="@android:color/holo_green_dark"
+                   android:layout_width="0dp"
+                   android:textStyle="bold"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txtWins"/>
+               <TextView
+                   android:textColor="#B6AA83"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:textStyle="bold"
+                   android:text="Losses:  "/>
+               <TextView
+                   android:textColor="@android:color/holo_red_dark"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:textStyle="bold"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/txtLosses"/>
+           </LinearLayout>
+       </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>

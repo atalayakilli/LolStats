@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:id="@+id/borderLayout"
+        android:background="@drawable/deneme"
+        android:layout_width="60dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:foregroundGravity="center">
+
+        <ImageView
+
+            android:id="@+id/imageChampionIcon"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:foregroundGravity="center"
+            android:layout_gravity="top" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="#B6AA83"
+            android:textStyle="bold"
+            android:text="Champion Name:"/>
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtChampionId"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="#B6AA83"
+            android:textStyle="bold"
+            android:text="Champion Level:"/>
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtChampionLevel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="#B6AA83"
+            android:textStyle="bold"
+            android:text="Champion Points"/>
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtChampionPoints"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="#B6AA83"
+            android:textStyle="bold"
+            android:text="Last Play Time: "/>
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLastPlayTime"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="#B6AA83"
+            android:textStyle="bold"
+            android:text="Champion Points Since Last Level:"/>
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtChampionPointsSinceLastLevel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="#B6AA83"
+            android:textStyle="bold"
+            android:text="Champion Points Until Next Level:"/>
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtChampionPointsUntilNextLevel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="#B6AA83"
+            android:textStyle="bold"
+            android:text="Chest Granted: "/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageChest"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textColor="#B6AA83"
+            android:textStyle="bold"
+            android:text="Tokens Earned: "/>
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTokensEarned"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

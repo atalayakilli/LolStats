@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:background="#010A13" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0A2E3E" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginLayout"
+        android:layout_marginBottom="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:fontFamily="casual"
+            android:gravity="right"
+            android:text="LoL"
+            android:textColor="#B6AA83"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Stats"
+            android:textColor="#B6AA83"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/login"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editSummonerName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:backgroundTint="#B6AA83"
+
+                android:hint="Summoner Name"
+                android:inputType="text"
+                android:paddingRight="10dp"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+            <ImageButton
+                android:id="@+id/cancelButton"
+                android:layout_marginLeft="-60dp"
+                style="?android:buttonBarButtonStyle"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"
+                android:src="@drawable/ic_search_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="5"
+                android:gravity="end"
+                android:text="Region:"
+                android:textColor="#B6AA83"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerLegion"
+                android:layout_width="120dp"
+                android:backgroundTint="#B6AA83"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:gravity="start">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="220dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.6"
+            android:background="@drawable/buttonbackground"
+            android:text="Search"
+            android:textColor="#C5B68B" />
+
+        <TextView
+
+            android:id="@+id/txtDeneme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:paddingTop="15dp"
+
+            android:text="FREE CHAMPIONS ROTATION"
+            android:textColor="#B6AA83"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

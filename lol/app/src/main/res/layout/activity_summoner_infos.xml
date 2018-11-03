@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SummonerInfos"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageSummonerIcon"
+            android:layout_width="71dp"
+            android:paddingLeft="10dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:foregroundGravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#B6AA83"
+            android:id="@+id/txtSummonerNameTitle"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="35dp" />
+        <Button
+            android:layout_width="80dp"
+            android:textColor="#C5B68B"
+            android:layout_gravity="center"
+            android:layout_height="75dp"
+            android:id="@+id/btnLiveMatch"
+            android:text="Live Match"
+            android:textAllCaps="false"
+
+            android:background="@drawable/buttonbackground"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#B6AA83"
+            android:textSize="20dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Summoner Level: "/>
+        <TextView
+            android:layout_width="0dp"
+            android:textColor="#B6AA83"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSummonerLevel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingBottom="15dp"
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Revision Date: "/>
+        <TextView
+            android:textColor="#B6AA83"
+            android:layout_width="0dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRevisionDate"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="15"
+            android:textColor="#C5B68B"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMasteries"
+            android:text="Champion Masteries"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonbackground"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="15"
+            android:textColor="#C5B68B"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLastPlayed"
+            android:text="Last Played Matches"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonbackground"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+<ListView
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listView">
+
+</ListView>
+
+</LinearLayout>

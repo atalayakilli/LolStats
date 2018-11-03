@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lol Stats</string>
+    <string-array name="planets_array">
+        <item>TR</item>
+        <item>NA</item>
+        <item>EUW</item>
+    </string-array>
+</resources>
